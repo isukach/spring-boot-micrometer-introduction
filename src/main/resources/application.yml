@@ -1,0 +1,12 @@
+# Uncomment after adding spring-boot-starter-actuator
+
+#management:
+#  metrics:
+#    export:
+#      elastic:
+#        step: 30s
+#        index: spring-gears-metrics
+#  endpoints:
+#    web:
+#      exposure:
+#        include: "*"
